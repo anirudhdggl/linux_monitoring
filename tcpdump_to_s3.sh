@@ -7,7 +7,7 @@ die() { status=$1; shift; echo "FATAL: $*"; exit $status; }
 sudo apparmor_parser -R /etc/apparmor.d/usr.sbin.tcpdump
 
 # Replace with actual bucket name
-BUCKET_NAME="tag-storage/tcpdump/stage";
+BUCKET_NAME="aduggal-storage/tcpdump/stage";
 
 # Get instance id for imdsv1
 #INSTANCE_ID="`wget -q -O - http://169.254.169.254/latest/meta-data/instance-id || die \"wget instance-id has failed: $?\"`"

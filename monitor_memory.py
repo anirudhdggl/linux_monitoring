@@ -2,7 +2,7 @@ import datetime
 import time
 
 stats_file = "/proc/meminfo"
-log_file = "/home/erpuser/mem_monit/mem_output.txt"
+log_file = "/home/aduggal/mem_monit/mem_output.txt"
 
 while True:
     with open(stats_file, 'r') as f:

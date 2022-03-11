@@ -23,4 +23,4 @@ while True:
     time.sleep(0.5)
 
 # Run the following to add it to crontab for every reboot
-# @reboot nohup python3.8 /home/erpuser/network_monitoring/capture_network_traffic/capture_data.py &
+# @reboot nohup python3.8 /home/aduggal/network_monitoring/capture_network_traffic/capture_data.py &
